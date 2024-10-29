@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff; /* Couleur d'arrière-plan du header */
+    color: white;
+}
+
+.profile-picture {
+    width: 150px; /* Taille de la photo de profil */
+    height: 150px; /* Taille de la photo de profil */
+    border-radius: 50%; /* Arrondir la photo */
+    margin-top: 20px;
+    object-fit: cover; /* Conserve le rapport d'aspect tout en remplissant le conteneur */
+    display: block; /* Nécessaire pour centrer avec margin: auto */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto; /* Centre horizontalement */
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 a {
+    color: #ffcc00; /* Couleur du lien "CoachMe" */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.about, .skills, .projects, .contact {
+    padding: 20px;
+    background-color: white; /* Couleur d'arrière-plan des sections */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: 0;
+    color: #007bff; /* Couleur bleue pour les titres */
+}
+
+.social-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links ul {
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-links ul li a {
+    color: #333; /* Couleur par défaut des icônes */
+    font-size: 24px; /* Taille des icônes */
+    transition: color 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #007bff; /* Changement de couleur au survol */
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer p a {
+    color: #007bff; /* Couleur du lien Discover CoachMe */
+    text-decoration: none; /* Pas de soulignement */
+}
